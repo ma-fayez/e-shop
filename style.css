@@ -12,17 +12,21 @@
     font-size: 20px;
     font-weight: 600;
     font-family: 'poppins';
+    color: black;
     letter-spacing: 1px;
 
 }
-
+.navbar{
+    position: sticky;
+}
 @media only screen and (min-width: 992px) {
     .navbar-nav{
         padding-left: 53%;
     }
 }
 .carousel{
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 .carousel-item{
     padding: 40px 50px;
@@ -113,6 +117,7 @@
 .card, .card-body p{
     font-size: 20px;
     padding-bottom: 10px;
+    text-align: justify;
 }
 .card, .card-body h5{
     text-align: center;

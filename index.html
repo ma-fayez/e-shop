@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <!------------------------Header Area----------------------->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
             <a class="navbar-brand" href="index.html"><img src="images/e-shop-logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -21,19 +21,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Shoes</a>
+                  <a class="nav-link" href="#shoes">Shoes</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Bags</a>
+                  <a class="nav-link" href="#bags">Bags</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Mobiles</a>
+                    <a class="nav-link" href="#mobiles">Mobiles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Suscribe</a>
+                    <a class="nav-link" href="#suscribe">Suscribe</a>
                 </li>
               </ul>
             </div>
@@ -43,6 +43,7 @@
 
           <!------------Carousel option/ Banner item--------->
 
+         <a name="">
           <div id="carouselExampleControls" class="carousel slide orange-bg" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -104,11 +105,12 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
+         </a>
 
           <!----------End of Carousel--------->
 
           <!-------------Start Bags Shops------------->
-          <div class="container category mt-5">
+            <div class="container category mt-5">
               <div class="row row-cols-1 row-cols-md-4">
                   <div class="col mb-4 item-1">
                       <div class="d-flex justify-content-center align-items-center">
@@ -129,70 +131,14 @@
                     </div>
                 </div>
               </div>
-            </div>
+            </div>          
       <!-------------End Bags Shops------------->
 
       <!--=========Shoes========-->
-      <div class="row see-more">
-          <div class="col-6">
-              <h2>Shoes</h2>
-          </div>
-          <div class="col-6">
-            <button class="see-button">See All
-                <span class="span-icon">&#8594;</span>
-            </button>
-          </div>
-      </div> 
-      
-      <!--===================-->
-
-      <div class="row row-cols-1 row-cols-md-3">
-        <div class="col mb-4">
-          <div class="card">
-            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title">Reebok Dart Men's Shoes</h4>
-              <p class="card-text">This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
-              <h5>$899</h5>
-              <button class="price-button">Buy Now
-                <span class="span-icon">&#8594;</span>
-            </button>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title">Reebok Pump</h4>
-              <p class="card-text">This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
-              <h5>&999</h5>
-              <button class="price-button">Buy Now
-                <span class="span-icon">&#8594;</span>
-            </button>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title">Reebok All Terrain</h4>
-              <p>This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
-              <h5>$1250</h5>
-              <button class="price-button">Buy Now
-                <span class="span-icon">&#8594;</span>
-            </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--===============End of shoes==============-->
-      <!--===================Start of bags================-->
+     <a name="shoes">
       <div class="row see-more">
         <div class="col-6">
-            <h2>Bags</h2>
+            <h2>Shoes</h2>
         </div>
         <div class="col-6">
           <button class="see-button">See All
@@ -206,9 +152,9 @@
     <div class="row row-cols-1 row-cols-md-3">
       <div class="col mb-4">
         <div class="card">
-          <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+          <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="card-title">Red Bag Collectios</h4>
+            <h4 class="card-title">Reebok Dart Men's Shoes</h4>
             <p class="card-text">This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
             <h5>$899</h5>
             <button class="price-button">Buy Now
@@ -219,9 +165,9 @@
       </div>
       <div class="col mb-4">
         <div class="card">
-          <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+          <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="card-title">Blue Bag Collectios</h4>
+            <h4 class="card-title">Reebok Pump</h4>
             <p class="card-text">This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
             <h5>&999</h5>
             <button class="price-button">Buy Now
@@ -232,9 +178,9 @@
       </div>
       <div class="col mb-4">
         <div class="card">
-          <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+          <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="card-title">Black Bag Collectios</h4>
+            <h4 class="card-title">Reebok All Terrain</h4>
             <p>This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
             <h5>$1250</h5>
             <button class="price-button">Buy Now
@@ -244,66 +190,129 @@
         </div>
       </div>
     </div>
+     </a>
+
+      <!--===============End of shoes==============-->
+      <!--===================Start of bags================-->
+      <a name="bags">
+        <div class="row see-more">
+          <div class="col-6">
+              <h2>Bags</h2>
+          </div>
+          <div class="col-6">
+            <button class="see-button">See All
+                <span class="span-icon">&#8594;</span>
+            </button>
+          </div>
+      </div> 
+      
+      <!--===================-->
+  
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Red Bag Collectios</h4>
+              <p class="card-text">This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
+              <h5>$899</h5>
+              <button class="price-button">Buy Now
+                <span class="span-icon">&#8594;</span>
+            </button>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Blue Bag Collectios</h4>
+              <p class="card-text">This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
+              <h5>&999</h5>
+              <button class="price-button">Buy Now
+                <span class="span-icon">&#8594;</span>
+            </button>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Black Bag Collectios</h4>
+              <p>This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
+              <h5>$1250</h5>
+              <button class="price-button">Buy Now
+                <span class="span-icon">&#8594;</span>
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
 
     <!--=====================End of Bags Collections=================-->
 
   <!--=====================Start of Mobile Collections=================-->
-  <div class="row see-more">
-    <div class="col-6">
-        <h2>Mobiles</h2>
+  <a name="mobiles">
+    <div class="row see-more">
+      <div class="col-6">
+          <h2>Mobiles</h2>
+      </div>
+      <div class="col-6">
+        <button class="see-button">See All
+            <span class="span-icon">&#8594;</span>
+        </button>
+      </div>
+  </div> 
+  
+  <!--===================-->
+  
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4">
+      <div class="card">
+        <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Android Collectios</h4>
+          <p class="card-text">This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
+          <h5>$8992</h5>
+          <button class="price-button">Buy Now
+            <span class="span-icon">&#8594;</span>
+        </button>
+        </div>
+      </div>
     </div>
-    <div class="col-6">
-      <button class="see-button">See All
-          <span class="span-icon">&#8594;</span>
-      </button>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Smart Phone Collectios</h4>
+          <p class="card-text">This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
+          <h5>$999</h5>
+          <button class="price-button">Buy Now
+            <span class="span-icon">&#8594;</span>
+        </button>
+        </div>
+      </div>
     </div>
-</div> 
-
-<!--===================-->
-
-<div class="row row-cols-1 row-cols-md-3">
-  <div class="col mb-4">
-    <div class="card">
-      <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h4 class="card-title">Android Collectios</h4>
-        <p class="card-text">This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
-        <h5>$8992</h5>
-        <button class="price-button">Buy Now
-          <span class="span-icon">&#8594;</span>
-      </button>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Best Collectios Ever</h4>
+          <p>This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
+          <h5>$12550</h5>
+          <button class="price-button">Buy Now
+            <span class="span-icon">&#8594;</span>
+        </button>
+        </div>
       </div>
     </div>
   </div>
-  <div class="col mb-4">
-    <div class="card">
-      <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h4 class="card-title">Smart Phone Collectios</h4>
-        <p class="card-text">This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
-        <h5>$999</h5>
-        <button class="price-button">Buy Now
-          <span class="span-icon">&#8594;</span>
-      </button>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h4 class="card-title">Best Collectios Ever</h4>
-        <p>This is most favourite choices in our model's. Various types bags is in here. You can buy now.</p>
-        <h5>$12550</h5>
-        <button class="price-button">Buy Now
-          <span class="span-icon">&#8594;</span>
-      </button>
-      </div>
-    </div>
-  </div>
-</div>
+  </a>
 <!--=======================End of Mobile Collections===================-->
-<div class="latest-work">
+<a name="suscribe">
+  <div class="latest-work">
     <h2>LET'S STAY IN TOUCH</h2>
     <p>Get updates on sales specials and more</p>
     <form action="">
@@ -311,6 +320,7 @@
         <button class="submit">Submit</button>
     </form>
 </div>
+</a>
 <!--==============End of latest work==============-->
 <footer class="footer">
     <p> &copy; 2020 All Right Reserved <a href="#">E-SHOP</a></p>
